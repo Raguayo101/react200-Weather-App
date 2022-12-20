@@ -7,6 +7,4 @@ const mapStoreToProps = (store) => {
   };
 };
 
-// This might look odd but, connect returns a function,
-// that is then called with the component itself.
 export default connect(mapStoreToProps)(Search);
